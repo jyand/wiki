@@ -22,7 +22,9 @@ libc:
 Browsers:
 * GNU Icecat
 * Firefox (with heavy customization)
-Avoid Brave or "ungoogled" Chromium
+
+Avoid Brave or "ungoogled" Chromium:
+https://wiki.hyperbola.info/doku.php?id=en:main:chromiums_freedom_flaws
 
 Programming Languages:
 * task automation: POSIX-compliant shell scripts
