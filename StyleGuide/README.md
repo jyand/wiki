@@ -9,3 +9,4 @@ This is not meant to be authoritative. There may be some points about efficiency
 * When the intended effect is the same (which is most of the time), pre-increment rather than post-icrement.
 * Avoid the elseif keyword. Depending on the situation, a switch statement or additional if statements may be appropriate.
 * An empty loop body should have both curly-braces on the same line as it's invocation.
+* Logically conjoined conditions should be listed in descending order of restrictiveness.
