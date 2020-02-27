@@ -1,5 +1,5 @@
 # Style Guide
-This is not meant to be authoritative. There may be some points about efficiency but mostly these are my opinions about what looks good in terms of readability.
+This is not meant to be authoritative. There may be some points about efficiency but mostly these are my opinions about what looks good in terms of readability. Check out the example source files.
 
 * 8-space tabs
 * 1TB curly-brace style
