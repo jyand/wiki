@@ -32,10 +32,36 @@ Init Systems (alternatives to SystemD):
 * runit
 * OpenRC
 
+Programming Languages:
+* task automation: POSIX-compliant shell scripts *(rather than Python)*
+* scientific computing: C (with gnuplot), Julia, R *(rather than MatLab, Octave, numpy/scipy/matplotlib or whatever)*
+* server-side: nodejs, PHP *(rather than Ruby on Rails, Python, ASP)*
+* general purpose: C, Go *(rather than Java, C++, Python)*
+* regular expressions: Perl, awk, sed *(rather than Python)*
+
+Terminal Emulators:
+* Suckless's st
+* xterm
+* kitty (bloated but may be worth it if you have a lot of spare RAM)
+
+Text Editors:
+* neovim
+* nvi
+* joe
+* sam
+* ed
+
+File Managers:
+* vifm *(rather than ranger, lf, nnn, or just using the shell)*
+
+Readers:
+* zathura (for DjVu, pdf, ps)
+* less (for text files or stdin)
+
 Browsers:
 * GNU Icecat
 * Firefox *(with heavy customization)*
-* TorBrowser *(alternative to VPN services)*
+* TorBrowser *(rather than using VPN services)*
 
 *Avoid Brave or "ungoogled" Chromium:*
 https://wiki.hyperbola.info/doku.php?id=en:main:chromiums_freedom_flaws
@@ -52,15 +78,3 @@ Search Engines:
 * Qwant
 * DuckDuckGo (Lite SSL)
 * DuckDuckGo (HTML SSL)
-
-Terminal Emulators:
-* Suckless's st
-* xterm
-* kitty (bloated but may be worth it if you have a lot of spare RAM)
-
-Programming Languages:
-* task automation: POSIX-compliant shell scripts *(rather than Python)*
-* scientific computing: C (with gnuplot), Julia, R *(rather than MatLab, Octave, numpy)*
-* server-side: nodejs, PHP *(rather than Python, ASP)*
-* general purpose: C, Go *(rather than Java, C++, Python)*
-* regular expressions: Perl, awk, sed *(rather than Python)*
