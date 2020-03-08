@@ -10,3 +10,6 @@ This is not meant to be authoritative. There may be some points about efficiency
 * Avoid the elseif keyword. Depending on the situation, a switch statement or additional if statements may be appropriate.
 * An empty loop body should have both curly-braces on the same line as it's invocation.
 * Logically conjoined conditions should be listed in descending order of restrictiveness.
+* Arithmetic should look like algebraic expressions i.e. spaces between operands and operator for addition/subtraction and none for multiplication
+* Division should only have spaces between operands and operator when the operands are expressions in parentheses 
+* Spaces between operands and operator for assignment *(exception: shell scripts)*, modulo, compound expressions, and comparison/boolean operators *(the exception: '!')*

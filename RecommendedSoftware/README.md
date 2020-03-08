@@ -49,7 +49,7 @@ Text Editors:
 * nvi
 * joe
 * sam
-* ed
+* nano
 
 File Managers:
 * vifm *(rather than ranger, lf, nnn, or just using the shell)*
@@ -59,22 +59,20 @@ Readers:
 * less (for text files or stdin)
 
 Browsers:
+* Firefox *(with heavy customization, i.e. Librefox)*
 * GNU Icecat
-* Firefox *(with heavy customization)*
 * TorBrowser *(rather than using VPN services)*
 
 *Avoid Brave or "ungoogled" Chromium:*
 https://wiki.hyperbola.info/doku.php?id=en:main:chromiums_freedom_flaws
 
 Firefox Extenstions:
-* Vim Vixen *(rather than Tridactyl)*
 * uBlock Origin *(rather than NoScript, AdBlockPlus, etc.)*
-* Privacy Badger
-* HTTPS Everywhere
+* NoHTTP *(rather than HTTPS Everywhere)*
+* CookieMasrer *(rather than Privacy Badger)*
+* Tridactyl
 * Dark Reader
 
 Search Engines:
-* Startpage/searx
-* Qwant
-* DuckDuckGo (Lite SSL)
-* DuckDuckGo (HTML SSL)
+* https://searx.info
+* Qwant Lite

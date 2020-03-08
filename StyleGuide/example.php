@@ -1,6 +1,7 @@
 #!/bin/php
 <?php
-# if you can't figure out what is going on here, comments are not going to help you
+# Example of code following this style guide
+# Optimized version of the "FizzBuzz" meme
         function fixbux($a, $b, $N) {
                 for ($i = 1 ; $i <= $N ; ++$i) {
                         echo "{$i} " ;
@@ -14,4 +15,7 @@
                 }
         }
         fixbux(3, 5, 105) ;
+# Note that:
+#       4 conditions are handled with only two 'if' statements
+#       Control structure is easy to follow
 ?>
