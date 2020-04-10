@@ -11,7 +11,7 @@ Shells:
 * dash/Busybox's ash (should be the default shell regardless of login/user shell)
 * es/Plan 9's rc (should NEVER be the default shell on Linux or BSD)
 * OpenBSD's ksh and its forks/ports: loksh, mksh, pdksh
-* fish (bloated but worth it)
+* fish (features are worth the bloat while using a terminal but not for scripts)
 
 Coreutils (alternatives to GNU):
 * Busybox
@@ -28,15 +28,15 @@ C compilers (alternatives to gcc):
 * tcc
 * 9c
 
-Init Systems (alternatives to SystemD):
+Init Systems (alternatives to SystemD/OpenRC):
 * runit
-* OpenRC
+* s6
 
 Programming Languages:
 * task automation: POSIX-compliant shell scripts *(rather than Python)*
-* scientific computing: C (with gnuplot), Julia, R *(rather than MatLab, Octave, numpy/scipy/matplotlib or whatever)*
-* server-side: nodejs, PHP *(rather than Ruby on Rails, Python, ASP)*
-* general purpose: C, Go *(rather than Java, C++, Python)*
+* scientific computing: Go, C (with gnuplot), Julia, R *(rather than MatLab, Octave, numpy/scipy/matplotlib or whatever)*
+* server-side: Go, nodejs, PHP *(rather than Ruby on Rails, Python, ASP)*
+* general purpose: C, Go, Lua *(rather than Java, C++, Python)*
 * regular expressions: Perl, awk, sed *(rather than Python)*
 
 Terminal Emulators:
@@ -46,33 +46,34 @@ Terminal Emulators:
 
 Text Editors:
 * neovim
+* vis
 * nvi
-* joe
 * sam
-* nano
+* joe
 
-File Managers:
-* vifm *(rather than ranger, lf, nnn, or just using the shell)*
+File Managers *(rather than ranger, lf, or just using the shell)*:
+* vifm 
+* nnn
 
 Readers:
-* zathura (for DjVu, pdf, ps)
-* less (for text files or stdin)
+* zathura, apvlv (for DjVu, pdf, ps)
+* vimpager or busybox's less (for text files or stdin)
 
 Browsers:
 * Firefox *(with heavy customization, i.e. Librefox)*
 * GNU Icecat
 * TorBrowser *(rather than using VPN services)*
+* "Ungoogled" Chromium
 
-*Avoid Brave or "ungoogled" Chromium:*
-https://wiki.hyperbola.info/doku.php?id=en:main:chromiums_freedom_flaws
+Obscure browsers like surf and vimb are interesting but sub-par in terms of security. These are fine for viewing pages stored locally.
 
-Firefox Extenstions:
+Browser Extenstions:
 * uBlock Origin *(rather than NoScript, AdBlockPlus, etc.)*
 * NoHTTP *(rather than HTTPS Everywhere)*
 * CookieMasrer *(rather than Privacy Badger)*
-* Tridactyl
+* Tridactyl or Vim Vixen
 * Dark Reader
 
 Search Engines:
 * https://searx.info
-* Qwant Lite
+* https://duckduckgo.com/lite

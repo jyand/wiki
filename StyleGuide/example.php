@@ -1,7 +1,7 @@
 #!/bin/php
 <?php
 # Example of code following this style guide
-# Optimized version of the "FizzBuzz" meme
+# Optimally refactored version of the "FizzBuzz" meme
         function fixbux($a, $b, $N) {
                 for ($i = 1 ; $i <= $N ; ++$i) {
                         echo "{$i} " ;
